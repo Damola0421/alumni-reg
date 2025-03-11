@@ -12,11 +12,7 @@ export default function Register() {
   const handlePrev = () => setStep((prev) => prev - 1);
    const [menuOpen, setMenuOpen] = useState(false);
   
-    function AnimatedCounter({ value }: { value: number }) {
-      const [count, setCount] = useState(0);
-  
-      return <span className="text-4xl md:text-5xl font-bold">{count}+</span>;
-    }
+    
 
   return (
     // Register Form
