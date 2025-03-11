@@ -129,7 +129,7 @@ export default function Home() {
           <div>
             <h4 className="text-xl font-semibold text-white mb-4">Quick Links</h4>
             <p><a href="/home" className="hover:text-blue-400">Home</a></p>
-            <p><a href="/home" className="hover:text-blue-400">Gallery</a></p>
+            <p><a href="/gallery" className="hover:text-blue-400">Gallery</a></p>
             <p><a href="/home" className="hover:text-blue-400">Events</a></p>
           </div>
           <div>

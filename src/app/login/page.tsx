@@ -39,6 +39,7 @@ export default function Login() {
         </div>
         {/* Desktop Menu */}
         <div className={`absolute md:static top-6 left-0 w-full md:w-auto  md:flex md:space-x-4 transition-all "hidden"}`}>
+            <a href="/home" className="block md:inline px-4 py-2 text-white hover:text-blue-400">Home</a>
           <a href="/login" className="block md:inline bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-300">Login</a>
           <a href="/register" className="block md:inline bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-300">Register</a>
         </div>
